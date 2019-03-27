@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\r.cernohorsky\Downloads\git\137MHz-DualFilter\137Mhz-BandPass-Filter.sch)
-    (date "03/26/19 14:31:57")
+    (date "03/27/19 08:56:49")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5C988072))
     (comp (ref L4)
       (value 68n)
-      (footprint Inductor_SMD:L_Neosid_Air-Coil_SML_4turn_HDM0431A)
+      (footprint kicad-footprints-master:1515SQ-68N)
       (libsource (lib device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C9880A3))
@@ -47,7 +47,7 @@
       (tstamp 5C988200))
     (comp (ref L5)
       (value 68n)
-      (footprint Inductor_SMD:L_Neosid_Air-Coil_SML_4turn_HDM0431A)
+      (footprint kicad-footprints-master:1515SQ-68N)
       (libsource (lib device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C988781))
