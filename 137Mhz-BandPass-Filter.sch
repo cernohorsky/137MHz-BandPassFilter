@@ -169,62 +169,136 @@ Wire Wire Line
 Connection ~ 7450 3500
 Text Notes 6575 3075 0    50   ~ 0
 137 Mhz band pass filter
-$Comp
-L MLAB_CONNECTORS:SMA J1
-U 1 1 5C9A2C08
-P 5475 3500
-F 0 "J1" H 5369 3100 60  0000 C CNN
-F 1 "SMA" H 5369 3206 60  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5475 3500 60  0001 C CNN
-F 3 "" H 5475 3500 60  0000 C CNN
-	1    5475 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L MLAB_CONNECTORS:SMA J2
-U 1 1 5C9A2DC6
-P 8600 3500
-F 0 "J2" H 8778 3522 60  0000 L CNN
-F 1 "SMA" H 8778 3416 60  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 8600 3500 60  0001 C CNN
-F 3 "" H 8600 3500 60  0000 C CNN
-	1    8600 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8200 3500 8250 3500
-$Comp
-L power:GND #PWR04
-U 1 1 5C9A39B3
-P 8225 3750
-F 0 "#PWR04" H 8225 3500 50  0001 C CNN
-F 1 "GND" H 8230 3577 50  0000 C CNN
-F 2 "" H 8225 3750 50  0001 C CNN
-F 3 "" H 8225 3750 50  0001 C CNN
-	1    8225 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 3700 8225 3700
-Wire Wire Line
-	8225 3700 8225 3750
-$Comp
-L power:GND #PWR01
-U 1 1 5C9A5252
-P 5875 3625
-F 0 "#PWR01" H 5875 3375 50  0001 C CNN
-F 1 "GND" H 5880 3452 50  0000 C CNN
-F 2 "" H 5875 3625 50  0001 C CNN
-F 3 "" H 5875 3625 50  0001 C CNN
-	1    5875 3625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5825 3300 5875 3300
-Wire Wire Line
-	5875 3300 5875 3625
 Wire Wire Line
 	5975 3500 5825 3500
 Text Notes 6700 4425 0    50   ~ 0
 Coils 744912168
+$Comp
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5CA77022
+P 9725 4350
+F 0 "MK1" V 9962 4355 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4355 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4350 50  0001 C CNN
+F 3 "" H 9725 4350 50  0001 C CNN
+	1    9725 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA77133
+P 9875 4400
+F 0 "#PWR0101" H 9875 4150 50  0001 C CNN
+F 1 "GND" H 9880 4227 50  0000 C CNN
+F 2 "" H 9875 4400 50  0001 C CNN
+F 3 "" H 9875 4400 50  0001 C CNN
+	1    9875 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4350 9875 4350
+Wire Wire Line
+	9875 4350 9875 4400
+$Comp
+L Mechanical:Mounting_Hole_PAD MK2
+U 1 1 5CA775FC
+P 9725 4675
+F 0 "MK2" V 9962 4680 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4680 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4675 50  0001 C CNN
+F 3 "" H 9725 4675 50  0001 C CNN
+	1    9725 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CA77602
+P 9875 4725
+F 0 "#PWR0102" H 9875 4475 50  0001 C CNN
+F 1 "GND" H 9880 4552 50  0000 C CNN
+F 2 "" H 9875 4725 50  0001 C CNN
+F 3 "" H 9875 4725 50  0001 C CNN
+	1    9875 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4675 9875 4675
+Wire Wire Line
+	9875 4675 9875 4725
+$Comp
+L Mechanical:Mounting_Hole_PAD MK3
+U 1 1 5CA77A8A
+P 9725 4975
+F 0 "MK3" V 9962 4980 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4980 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4975 50  0001 C CNN
+F 3 "" H 9725 4975 50  0001 C CNN
+	1    9725 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CA77A90
+P 9875 5025
+F 0 "#PWR0103" H 9875 4775 50  0001 C CNN
+F 1 "GND" H 9880 4852 50  0000 C CNN
+F 2 "" H 9875 5025 50  0001 C CNN
+F 3 "" H 9875 5025 50  0001 C CNN
+	1    9875 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4975 9875 4975
+Wire Wire Line
+	9875 4975 9875 5025
+$Comp
+L Mechanical:Mounting_Hole_PAD MK4
+U 1 1 5CA77A98
+P 9725 5300
+F 0 "MK4" V 9962 5305 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 5305 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 5300 50  0001 C CNN
+F 3 "" H 9725 5300 50  0001 C CNN
+	1    9725 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CA77A9E
+P 9875 5350
+F 0 "#PWR0104" H 9875 5100 50  0001 C CNN
+F 1 "GND" H 9880 5177 50  0000 C CNN
+F 2 "" H 9875 5350 50  0001 C CNN
+F 3 "" H 9875 5350 50  0001 C CNN
+	1    9875 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 5300 9875 5300
+Wire Wire Line
+	9875 5300 9875 5350
+$Comp
+L Connector:Conn_01x01 J3
+U 1 1 5CA7811E
+P 8450 3500
+F 0 "J3" H 8530 3542 50  0000 L CNN
+F 1 "Conn_01x01" H 8530 3451 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 3500 50  0001 C CNN
+F 3 "~" H 8450 3500 50  0001 C CNN
+	1    8450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J1
+U 1 1 5CA7878B
+P 5625 3500
+F 0 "J1" H 5545 3275 50  0000 C CNN
+F 1 "Conn_01x01" H 5545 3366 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5625 3500 50  0001 C CNN
+F 3 "~" H 5625 3500 50  0001 C CNN
+	1    5625 3500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

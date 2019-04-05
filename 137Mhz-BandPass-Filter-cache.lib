@@ -1,20 +1,42 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MLAB_CONNECTORS_SMA
+# Connector_Conn_01x01
 #
-DEF MLAB_CONNECTORS_SMA J 0 40 Y Y 1 F N
-F0 "J" 0 200 60 H V C CNN
-F1 "MLAB_CONNECTORS_SMA" 150 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF Connector_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
 DRAW
-C 0 0 50 0 1 0 N
-C 0 0 150 0 1 0 N
-P 2 0 1 0 -50 0 -150 0 N
-P 3 0 1 0 0 -150 0 -200 -150 -200 N
-X ~ 1 -350 0 200 R 50 50 1 1 U
-X ~ 2 -350 -200 200 R 50 50 1 1 U
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_Mounting_Hole_PAD
+#
+DEF Mechanical_Mounting_Hole_PAD MK 0 40 N N 1 F N
+F0 "MK" 0 250 50 H V C CNN
+F1 "Mechanical_Mounting_Hole_PAD" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

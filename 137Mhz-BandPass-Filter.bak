@@ -225,4 +225,110 @@ Wire Wire Line
 	5875 3300 5875 3625
 Wire Wire Line
 	5975 3500 5825 3500
+Text Notes 6700 4425 0    50   ~ 0
+Coils 744912168
+$Comp
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5CA77022
+P 9725 4350
+F 0 "MK1" V 9962 4355 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4355 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4350 50  0001 C CNN
+F 3 "" H 9725 4350 50  0001 C CNN
+	1    9725 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA77133
+P 9875 4400
+F 0 "#PWR0101" H 9875 4150 50  0001 C CNN
+F 1 "GND" H 9880 4227 50  0000 C CNN
+F 2 "" H 9875 4400 50  0001 C CNN
+F 3 "" H 9875 4400 50  0001 C CNN
+	1    9875 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4350 9875 4350
+Wire Wire Line
+	9875 4350 9875 4400
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5CA775FC
+P 9725 4675
+F 0 "MK?" V 9962 4680 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4680 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4675 50  0001 C CNN
+F 3 "" H 9725 4675 50  0001 C CNN
+	1    9725 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA77602
+P 9875 4725
+F 0 "#PWR?" H 9875 4475 50  0001 C CNN
+F 1 "GND" H 9880 4552 50  0000 C CNN
+F 2 "" H 9875 4725 50  0001 C CNN
+F 3 "" H 9875 4725 50  0001 C CNN
+	1    9875 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4675 9875 4675
+Wire Wire Line
+	9875 4675 9875 4725
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5CA77A8A
+P 9725 4975
+F 0 "MK?" V 9962 4980 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 4980 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 4975 50  0001 C CNN
+F 3 "" H 9725 4975 50  0001 C CNN
+	1    9725 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA77A90
+P 9875 5025
+F 0 "#PWR?" H 9875 4775 50  0001 C CNN
+F 1 "GND" H 9880 4852 50  0000 C CNN
+F 2 "" H 9875 5025 50  0001 C CNN
+F 3 "" H 9875 5025 50  0001 C CNN
+	1    9875 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4975 9875 4975
+Wire Wire Line
+	9875 4975 9875 5025
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5CA77A98
+P 9725 5300
+F 0 "MK?" V 9962 5305 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 9871 5305 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9725 5300 50  0001 C CNN
+F 3 "" H 9725 5300 50  0001 C CNN
+	1    9725 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA77A9E
+P 9875 5350
+F 0 "#PWR?" H 9875 5100 50  0001 C CNN
+F 1 "GND" H 9880 5177 50  0000 C CNN
+F 2 "" H 9875 5350 50  0001 C CNN
+F 3 "" H 9875 5350 50  0001 C CNN
+	1    9875 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 5300 9875 5300
+Wire Wire Line
+	9875 5300 9875 5350
 $EndSCHEMATC
