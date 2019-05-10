@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 8)
     (tracks 199)
     (zones 0)
     (modules 16)
@@ -549,7 +549,7 @@
   )
 
   (module kicad-footprints-master:RiskeLogo (layer B.Cu) (tedit 0) (tstamp 5CB44B80)
-    (at 116 120)
+    (at 122 120)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -731,11 +731,8 @@
     (arrow2b (pts (xy 160 134) (xy 158.873496 134.586421)))
   )
   (gr_line (start 134 115) (end 134 130) (layer F.SilkS) (width 0.2))
-  (gr_text "137 MHz Band-pass filter" (at 144 113) (layer B.SilkS) (tstamp 5CB44B97)
+  (gr_text "137 MHz Band-pass filter" (at 137 113) (layer B.SilkS) (tstamp 5CB44B97)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (gr_text "137 MHz \nBand-pass filter" (at 107 114) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 160 130) (end 160 110) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 107 130) (end 160 130) (layer Edge.Cuts) (width 0.2))
