@@ -1,0 +1,1737 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ff9990eb-15a5-4286-8155-2c84f5b62500")
+	(paper "A4")
+	(lib_symbols
+		(symbol "137Mhz-BandPass-Filter-rescue:C-device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C-device"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-device_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "137Mhz-BandPass-Filter-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-power"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "137Mhz-BandPass-Filter-rescue:L-device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L-device"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L-device_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.635 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.635 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.635 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L-device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "137 Mhz band pass filter"
+		(exclude_from_sim no)
+		(at 132.08 73.025 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f3a343-3bab-4b14-827b-b7399a2dda96")
+	)
+	(text "Coils WE-CAIR 7449121168G"
+		(exclude_from_sim no)
+		(at 131.064 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba181b54-e0f7-447a-bde0-2689adb53f47")
+	)
+	(junction
+		(at 132.715 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1517a969-533f-45ac-8925-7f79a2b6df91")
+	)
+	(junction
+		(at 154.305 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a5ad717-d362-468b-b2fd-5b9735be464b")
+	)
+	(junction
+		(at 154.305 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a5c4c12-3ec3-46ba-bdf9-6ca7b47522ad")
+	)
+	(junction
+		(at 154.305 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "969fccdf-395f-4f08-9609-683bc21805f9")
+	)
+	(junction
+		(at 132.715 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab9ad3c-09ce-423d-9974-4f1b0a0a4e55")
+	)
+	(junction
+		(at 132.715 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3c339d0-c65d-41b1-ab90-b509febd004d")
+	)
+	(wire
+		(pts
+			(xy 154.305 97.155) (xy 157.48 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baccd7c-25eb-4a36-8e35-41d999b5b396")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.155) (xy 135.89 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f693664-4009-4060-9f3b-e1dd59a1fbdc")
+	)
+	(wire
+		(pts
+			(xy 132.715 86.995) (xy 132.715 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edd36d0-76c8-41af-8723-6edbb9eb48e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.155) (xy 132.715 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38261054-a4b7-4365-9e5b-7ec4a3706710")
+	)
+	(wire
+		(pts
+			(xy 132.715 86.995) (xy 135.89 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394cd2db-0859-418c-8fe9-3c09e9dd0db9")
+	)
+	(wire
+		(pts
+			(xy 154.305 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e09de3d-21c0-48c0-8301-f8c3666ab5cb")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f46b3e-4d4e-480e-bafa-336435d584a4")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.995) (xy 157.48 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e090d2-3c76-4f00-94bd-2a1740901486")
+	)
+	(wire
+		(pts
+			(xy 149.225 83.82) (xy 154.305 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f55fbf-0d93-4964-b9fa-4d2702f0f6bd")
+	)
+	(wire
+		(pts
+			(xy 132.715 83.82) (xy 141.605 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889e1e6f-1a6c-41de-a23a-f9430552f644")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.995) (xy 135.89 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893b7370-7a44-4ccb-86f1-f2caca03508b")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d50ea3f-3f83-40c6-b93b-0a06e556b924")
+	)
+	(wire
+		(pts
+			(xy 154.305 97.155) (xy 154.305 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e909b8b-2f87-4698-a602-c15ebd837830")
+	)
+	(wire
+		(pts
+			(xy 154.305 86.995) (xy 157.48 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af260a69-b7a7-460a-ba3b-1754199a643a")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.995) (xy 132.715 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9377b77-91e0-4771-835a-6e2ef91d8fd9")
+	)
+	(wire
+		(pts
+			(xy 154.305 86.995) (xy 154.305 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c85bb7-794d-4264-b1a6-bcf3eedd5d6a")
+	)
+	(wire
+		(pts
+			(xy 132.715 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffeabde-a3b4-4201-82e7-3a3ac07ec639")
+	)
+	(wire
+		(pts
+			(xy 132.715 97.155) (xy 132.715 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe0a923-c7e2-47b4-9bc3-cb8a68e2bdff")
+	)
+	(wire
+		(pts
+			(xy 151.13 95.885) (xy 151.13 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e2a7b8-d059-41c9-b39d-d5ee80280786")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.995) (xy 154.305 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d832d947-d1c0-4fa6-86f4-4c97e9d5dd38")
+	)
+	(wire
+		(pts
+			(xy 132.715 97.155) (xy 135.89 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde091d6-4244-41b2-a884-21e67657f2af")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.265) (xy 151.13 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ba072f-dcae-4316-abce-ac8852fdbcf8")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.885) (xy 129.54 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35c5919-29a4-40db-a28d-d48d45620cc3")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.155) (xy 157.48 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafdbbeb-c497-4334-8a26-a952f8f6b64d")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.265) (xy 129.54 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f474e553-e8ed-4ba3-adce-2c185af8a1fa")
+	)
+	(wire
+		(pts
+			(xy 151.13 97.155) (xy 154.305 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb885305-b60a-44ca-86ff-00ecf6af4876")
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:C-device")
+		(at 120.65 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c988072")
+		(property "Reference" "C1"
+			(at 120.65 77.4192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4p7"
+			(at 120.65 79.7306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder"
+			(at 116.84 84.7852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "feaae328-2881-4289-8e32-da8ceba0beea")
+		)
+		(pin "1"
+			(uuid "d2a0101f-4e73-41d4-83e4-3e4218ef5a84")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:L-device")
+		(at 135.89 92.075 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c9880a3")
+		(property "Reference" "L1"
+			(at 137.2362 90.9066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 137.2362 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "riske:L_Wurth_WE-CAIR-4248"
+			(at 135.89 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74fc9899-efe1-4dcb-97a5-d2c2277c1f01")
+		)
+		(pin "2"
+			(uuid "1111acba-ac5e-4692-9cae-4f35f5de6782")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:C-device")
+		(at 145.415 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c988184")
+		(property "Reference" "C3"
+			(at 145.415 77.4192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1p"
+			(at 145.415 79.7306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder"
+			(at 141.605 84.7852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.415 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ede1818-4097-4357-a3b3-ead94a29d54e")
+		)
+		(pin "1"
+			(uuid "d6c80867-baaa-497d-b60d-b59ba189fd35")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:C-device")
+		(at 170.18 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c9881d4")
+		(property "Reference" "C5"
+			(at 170.18 77.4192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4p7"
+			(at 170.18 79.7306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder"
+			(at 166.37 84.7852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b871e88c-6ae1-4e9e-a11a-306093af0c5f")
+		)
+		(pin "1"
+			(uuid "05d957dd-ffbf-4103-9ac3-12e7fca56cea")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:C-device")
+		(at 129.54 92.075 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c988200")
+		(property "Reference" "C2"
+			(at 132.461 90.9066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15p"
+			(at 132.461 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder"
+			(at 128.5748 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d0d1de1-356d-4aa6-a283-dbeea359600b")
+		)
+		(pin "1"
+			(uuid "ab7c6544-cd81-4896-98b1-9accaed8b5d9")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:GND-power")
+		(at 132.715 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c9883dd")
+		(property "Reference" "#PWR02"
+			(at 132.715 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.842 102.1842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.715 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.715 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.715 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77a2673d-9758-49fb-bb7f-d9611ae9b4a6")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:L-device")
+		(at 157.48 92.075 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c988781")
+		(property "Reference" "L2"
+			(at 158.8262 90.9066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 158.8262 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "riske:L_Wurth_WE-CAIR-4248"
+			(at 157.48 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7774efa7-1fc9-41c1-94af-d93fdda79be0")
+		)
+		(pin "2"
+			(uuid "4eea498b-8dc8-4b70-baf8-4f726a506253")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:C-device")
+		(at 151.13 92.075 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c988787")
+		(property "Reference" "C4"
+			(at 154.051 90.9066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15p"
+			(at 154.051 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder"
+			(at 150.1648 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e77b4e62-7add-4b00-b8cf-16301114fc09")
+		)
+		(pin "2"
+			(uuid "5d37580f-6723-4325-88d4-3f9774f61ba5")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:GND-power")
+		(at 154.305 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c98878d")
+		(property "Reference" "#PWR03"
+			(at 154.305 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.432 102.1842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.305 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.305 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9be42c-f60b-4739-9dc3-b7243b60a45f")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:GND-power")
+		(at 180.34 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a284e0a-d024-439f-a85f-9bb201d184ea")
+		(property "Reference" "#PWR04"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.467 93.2942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5875adca-aa4c-492f-96fa-e74b1af4166c")
+		)
+		(instances
+			(project "137Mhz-BandPass-Filter"
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "137Mhz-BandPass-Filter-rescue:GND-power")
+		(at 107.95 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ed79852-92bd-47ff-b6da-f8bb66d18ee4")
+		(property "Reference" "#PWR01"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.077 93.2942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2227c649-3386-4e17-a991-593bf93f4ab6")
+		)
+		(instances
+			(project "137Mhz-BandPass-Filter"
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1212486-68b2-4a48-ab43-b26a3880b0e8")
+		(property "Reference" "J3"
+			(at 180.0226 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 180.0226 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af7c0bd2-130f-444a-b04f-97108a2836ab")
+		)
+		(pin "1"
+			(uuid "3671637a-b883-4e02-9305-792a03b38e78")
+		)
+		(instances
+			(project "137Mhz-BandPass-Filter"
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 107.95 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a15a39-abee-40ac-8130-54c5319bde0c")
+		(property "Reference" "J1"
+			(at 108.2674 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 108.2674 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d6ea418-38ec-4acc-b7c5-7928e69d0905")
+		)
+		(pin "1"
+			(uuid "38223c5d-6aac-469b-b4bc-3911fea3afa2")
+		)
+		(instances
+			(project ""
+				(path "/ff9990eb-15a5-4286-8155-2c84f5b62500"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
