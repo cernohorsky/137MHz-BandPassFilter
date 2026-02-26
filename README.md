@@ -1,6 +1,11 @@
 # 137 MHz Band-pass Filter
 137 MHz bandpass filter for receiving signal from weather satellites NOAA 
 
+The filter is still usable, but I <b>highly recommend this option:</b> <br>
+https://github.com/cernohorsky/2m-70cm_BPF/blob/main/README.md <br>
+
+The filter has much higher selectivity.
+
 <img src="https://github.com/cernohorsky/137MHz-BandPassFilter/blob/master/pictures/137Mhz-BandPass-Filter-View.jpg" />
 <img src="https://github.com/cernohorsky/137MHz-BandPassFilter/blob/master/pictures/137Mhz-BandPass-Filter-View02.jpg" />
 Based on 9a4qv design:<br>
