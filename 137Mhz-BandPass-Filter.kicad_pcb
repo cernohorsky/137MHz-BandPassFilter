@@ -2542,7 +2542,7 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 124.8 109.6)
+		(start 124.8 110)
 		(end 127.2 124.7)
 		(stroke
 			(width 0.1)
@@ -2562,6 +2562,17 @@
 		(fill yes)
 		(layer "F.Mask")
 		(uuid "9e26e6df-d3b3-4034-92c2-a2b86c8b8d9f")
+	)
+	(gr_rect
+		(start 124.8 110)
+		(end 127.2 130)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "ab32bc65-9052-415d-8d17-e145efd23101")
 	)
 	(gr_arc
 		(start 107 113)
